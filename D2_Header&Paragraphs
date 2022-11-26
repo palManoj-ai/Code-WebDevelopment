@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day4WebDev</title>
+</head>
+<body>
+    <h1>Heading</h1>
+    <h2>Heading</h2>
+    <h3>Heading</h3>
+    <h4>Heading</h4>
+    <h5>Lorem ipsum dolor sit.</h5>
+    <!-- above line created with lorem4 , toggle word wrap with alt+z -->
+    <p><strong> ipsum dolor, sit amet consectetur </strong> adipisicing elit. Nulla eveniet, itaque enim voluptatibus consectetur <em> neque sed mollitia magni.</em> <br> Repellendus deleniti necessitatibus doloremque nulla neque nisi cupiditate laboriosam facilis error?</p>
+    <!-- <strong> or <b> and <em> or <i> for bold, italicise, use of first emphasised-->
+    <hr>
+    <!-- br and hr used for linebreak and hr line -->
+    <p>Crearted from p*2 </p>
+    <p>same as above </p>
+    <!-- ctrl+e to go to next line -->
+
+ 
+</body>
+</html>
