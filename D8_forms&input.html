@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D8_input</title>
+</head>
+<body>
+    <h4>This is demonstration of input methods in HTML</h4>
+    <!-- 1. user ip boxes -->
+    <form action="authen.jsp">
+      
+            <label for="name">Username:</label>
+            <div>
+             <input type="text" name="uname" id="name">
+            </div>
+            <label for="pwd">Password:</label>
+            <div>
+            <input type="password" name="psw" id="pwd"> 
+            </div>
+        
+        <input type="submit" value="Submit">
+        <!-- above line as submit name isnt reqd for backend so name var holds no significance, so value -->
+        <br>
+        <label for="ageid">Age: </label>
+        <input type="number" name="age" id="ageid">
+        <label for="dobid">DOB: </label>
+        <input type="date" name="DOB" id="dobid">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <br>
+        Married? <input type="checkbox" name="married" id="marriedid">
+        Gender: Male<input type="radio" name="gender">Female<input type="radio" name="gender">Other<input type="radio" name="gender">
+        <label for="phoneid">CellNo </label>
+        <input type="tel" name="phone" id="phoneid">
+        <hr>
+        <br>
+        <input type="reset" name="Reset Now">
+        <!-- by default button name for type reset, submit is Reset, Submit -->
+        <br>
+        <textarea name="mytext" cols="30" rows="20"></textarea>
+
+    </form>
+
+</body>
+</html>
