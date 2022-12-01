@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D6_Webdev</title>
+</head>
+<body>
+    <a href="https://www.youtube.com/" target="_blank"> Go to Youtube</a>
+    <a href="https://www.google.com/" target="_blank"> Go to Google</a>
+    <a href="https://www.facebook.com/" target="_blank"> Go to Facebook</a>
+
+    <!-- href means links, target="_blank" opens new window when clicked  -->
+    <img src="https://images.unsplash.com/photo-1668661555246-17b2b7b087e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8cVBZc0R6dkpPWWN8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" alt="Image not loading" height="480" width="400">
+    <img src="sdv" alt="Image not loading" height="480" width="400">
+
+    <!-- alt means alt text to display if image is not loaded, gen name of photo is used -->
+    <!-- can also edit height. width but not recom as styling is better handled by css -->
+    <!-- html is gen used for creating skeleton, styling by css -->
+   
+</body>
+</html>
