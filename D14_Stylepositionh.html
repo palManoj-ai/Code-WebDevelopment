@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSstyling</title>
+    <!-- <link rel="stylesheet" href="D14_Styleposition.css"> -->
+    <style>
+        p{
+            color: rgb(212, 48, 125);
+            background-color: rgb(164, 177, 39);
+            font-weight: bold;
+            /* using !important at last font-weight: bold !important; will use the styling in the lines with inline styling as well  */
+        }
+    </style>
+</head>
+<body>
+    <p style="color: rgb(95, 129, 73); background-color: aquamarine; font-weight: lighter;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, quia.</p>
+    <p>This line has no inline css so it will use the style defined in the head or link</p>
+    <p>Same goes for this line too</p>
+    <!-- above styling (inline type) is prioritized even if we've defined internal styling in head -->
+    <div style="color: blueviolet;background-color: aquamarine;">
+        <h4>This is heading 4 inside a division block</h4>
+    </div>
+</body>
+</html>

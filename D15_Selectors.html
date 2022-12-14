@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        .forDiv{
+            color: darkorange;
+            background-color: teal;
+        }
+        #pCustom{
+            color: red;
+            background-color: black;
+        }
+        span,footer{
+            background-color: pink;
+            color: blueviolet;
+        }
+
+    </style>
+    <!-- using p{} sets attributes for all paragraphs, using #id4 sets for the element which has id=id4, using .id5 
+        sets for the class with id=id5 -->
+</head>
+<body>
+    <p> This is with no styling defined inline so default as setup in line 9 is used.</p>
+    <p id="pCustom"> This is custom styled paragraph.</p>
+    <div class="forDiv">
+        This is custom styled text inside the div block.
+    </div>
+    <span class="customDiv">This is span element styled with customdiv same as the div block above.</span>
+    <footer class="customDiv">This is footer of the page.</footer>
+
+</body>
+</html>
